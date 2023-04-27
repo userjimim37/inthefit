@@ -1,0 +1,54 @@
+
+.login-form {
+    padding: 20px;
+    background-color: gainsboro;
+    width: 300px;
+    display: block;
+    margin: 50px auto auto auto;
+    border-radius: 5px;
+   
+    }
+
+.text-field { /*아이디, 비밀번호 박스*/
+  font-size: 14px;
+  border-style: none;
+  padding: 10px;
+   margin-bottom: 10px;
+    border-radius: 5px;
+    width: 260px;
+    color: #9B9B9B;
+}
+
+.submit-btn {
+  font-size: 14px;
+  background-color: #121212;
+    border-style: none;
+    padding: 10px;
+    margin: auto auto 20px auto;
+    border-radius: 5px;
+    width: 260px;
+    color:whitesmoke;
+   
+}
+.submit-btn:hover{
+   box-shadow: 0 4px 8px 0 yellow;
+}
+    
+
+.links {
+    text-align: center;
+    word-spacing: 20px;
+    
+}
+
+.links a {
+  font-size: 12px;
+  color:whitesmoke;
+  
+}
+  h1{/*로그인 글자*/
+      text-align: center;
+      color: whitesmoke;
+      font-size: 50px;
+  }
+
