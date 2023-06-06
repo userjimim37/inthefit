@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>인더핏 - 매칭</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/matching.css" />
+    <link
+      href="https://fonts.googleapis.com/earlyaccess/notosanskr.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="login-wrapper">
+      <div class="login-container">
+        <h1 class="logo">
+          <a href="../index.html">매칭 페이지</a>
+        </h1>
+
+        <p>모집하기</p>
+
+        <div class="login-form">
+          <form>
+            <div class="field">
+              <b>제목</b>
+              <input type="text" name="name" placeholder="제목" />
+            </div>
+            <div class="field">
+              <b>모집일시</b>
+              <input type="date" id="number" />
+            </div>
+            <div class="field">
+              <b>모집인원</b>
+              <input type="number" name="number" placeholder="모집인원" />
+            </div>
+            <div>
+              <b>모집종목</b>
+              <div class="select">
+                <select>
+                  <option value="event_1" selected>종목 선택</option>
+                  <option value="event_2">축구</option>
+                  <option value="event_2">농구</option>
+                  <option value="event_2">야구</option>
+                  <option value="event_2">수영</option>
+                  <option value="event_2">헬스</option>
+                  <option value="event_2">런닝</option>
+                  <option value="event_2">격투기</option>
+                  <option value="event_2">등산</option>
+                  <option value="event_2">크로스핏</option>
+                </select>
+              </div>
+            </div>
+            <a href="../index.html"
+              ><button type="button" class="submit-btn">등록</button></a
+            >
+            <a href="../index.html"
+              ><button type="button" class="submit-btn">취소</button></a
+            >
+          </form>
+
+          <div class="links">
+            <a href="../index.html">홈페이지 구경</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/global.js"></script>
+  </body>
+</html>
