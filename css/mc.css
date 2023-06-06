@@ -1,0 +1,57 @@
+.matching-introduce-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: green;
+    padding: 10px;
+  }
+
+.matching-titleBox {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    justify: center;
+  }
+  
+
+.matching-box1 {
+    padding: 20px;
+    background-color: gainsboro;
+    width: 500px;
+    display: block;
+    margin: 36px auto auto auto;
+    border-radius: 5px;
+}
+
+.matching-box2 {
+    padding: 20px;
+    background-color: gainsboro;
+    width: 500px;
+    display: block;
+    margin: 36px auto auto auto;
+    border-radius: 5px;
+}
+.matching-box3 {
+    padding: 20px;
+    background-color: gainsboro;
+    width: 500px;
+    display: block;
+    margin: 36px auto auto auto;
+    border-radius: 5px;
+}
+.matching-box4 {
+    padding: 20px;
+    background-color: gainsboro;
+    width: 500px;
+    display: block;
+    margin: 36px auto auto auto;
+    border-radius: 5px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
