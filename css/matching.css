@@ -1,29 +1,142 @@
-.matching-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: minmax(200px, auto);
-  gap: 10px;
-  padding: 0 4px;
-  margin: 36px 0;
+.matching-introduce-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: green;
+  padding: 10px;
 }
 
-.matching-list li {
-  border: 1px solid gainsboro;
-}
-
-.matching-list h3 {
+.matching-box {
   display: flex;
+  align-items: center;
+  column-gap: 24px;
+  padding: 20px;
+  background-color: gainsboro;
+  width: 500px;
+  margin: 36px auto auto auto;
+  border-radius: 5px;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.day {
+  font-size: 32px;
+  color: red;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80%;
-  font-size: 20px;
+  width: 100%;
+  height: 100vh;
 }
 
-.matching-choiceBox {
+.login-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  column-gap: 32px;
-  height: 20%;
-  border-top: 1px solid gainsboro;
+}
+
+.logo {
+  font-size: 48px;
+  margin-top: 150px;
+  margin-bottom: 12px;
+  color: green;
+}
+
+.login-link {
+  color: gray;
+}
+
+.login-link:hover {
+  color: green;
+  transition: color 0.5s;
+}
+
+.login-form {
+  padding: 20px;
+  background-color: gainsboro;
+  width: 300px;
+  display: block;
+  margin: 36px auto auto auto;
+  border-radius: 5px;
+}
+
+.login-form input {
+  font-size: 14px;
+  border-style: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  width: 260px;
+  color: #9b9b9b;
+}
+
+.submit-btn {
+  font-size: 14px;
+  background-color: green;
+  border-style: none;
+  padding: 10px;
+  margin: auto auto 20px auto;
+  border-radius: 4px;
+  width: 120px;
+  cursor: pointer;
+  color: white;
+  float: left;
+  margin-left: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.submit-btn:hover {
+  opacity: 0.7;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  font-size: 12px;
+  color: white;
+}
+
+.links a:hover {
+  color: green;
+  transition: color 0.5s;
+}
+select {
+  padding: 10px;
+  background-color: white;
+  width: 260px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
