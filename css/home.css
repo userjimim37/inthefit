@@ -12,6 +12,18 @@
   color: green;
 }
 
+.home-login {
+  font-weight: bold;
+  font-size: 13px;
+  text-align: right;
+  color: black; 
+  transition: color 0.5s;
+}
+
+.home-login:hover {
+  color: green;
+}
+
 .home-introduce-description {
   font-size: 16px;
   line-height: 1.5em;
