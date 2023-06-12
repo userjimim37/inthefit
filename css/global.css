@@ -115,3 +115,7 @@
   font-size: 13px;
   color: gray;
 }
+
+body {
+  font-family: 'Hahmlet', sans-serif;
+}

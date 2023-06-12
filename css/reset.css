@@ -127,3 +127,7 @@ a {
   font: inherit;
   color: inherit;
 }
+
+body {
+  font-family: 'Hahmlet', sans-serif;
+}

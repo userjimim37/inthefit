@@ -1,7 +1,7 @@
 .matching-introduce-title {
   font-size: 36px;
   font-weight: bold;
-  color: green;
+  color: #3cb371;
   padding: 10px;
   text-align: center;
 }
@@ -57,6 +57,11 @@
   display: flex;
   flex-direction: column;
   row-gap: 8px;
+}
+
+.info-box-lo {
+  text-align: right;
+  font-size: 14px;
 }
 
 .login-wrapper {
@@ -153,4 +158,8 @@ select {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
+}
+
+body {
+  font-family: 'Hahmlet', sans-serif;
 }
