@@ -4,12 +4,13 @@
   color: #3cb371;
   padding: 10px;
   text-align: center;
+  width: 300px;
 }
 
 .matching-box {
   display: flex;
-  align-items: center;
-  column-gap: 24px;
+  flex-direction: column;
+  row-gap: 12px;
   padding: 20px;
   background-color: gainsboro;
   width: 500px;
@@ -17,12 +18,18 @@
   border-radius: 5px;
 }
 
+.matching-item {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
 .matching-join-box {
   text-align: right;
   padding-right: 7px;
   font-weight: bold;
   font-size: 13px;
-  color: black; 
+  color: black;
   transition: color 0.5s;
 }
 

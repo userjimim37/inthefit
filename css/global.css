@@ -42,7 +42,7 @@
 .global-main-wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 45px;
+  margin-top: 29px;
   width: 100%;
   min-height: 100vh;
   background-color: gainsboro;
