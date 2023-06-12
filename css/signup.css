@@ -1,99 +1,98 @@
 .login-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-  }
-  
-  .login-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .logo {
-    font-size: 48px;
-    margin-top: 150px;
-    margin-bottom: 12px;
-    color: green;
-  }
-  
-  .login-link {
-    color: gray;
-  }
-  
-  .login-link:hover {
-    color: green;
-    transition: color 0.5s;
-  }
-  
-  .login-form {
-    padding: 20px;
-    background-color: gainsboro;
-    width: 300px;
-    display: block;
-    margin: 36px auto auto auto;
-    border-radius: 5px;
-  }
-  
-  .login-form input {
-    font-size: 14px;
-    border-style: none;
-    padding: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    border-radius: 4px;
-    width: 260px;
-    color: #9b9b9b;
-  }
-  
-  .submit-btn {
-    font-size: 14px;
-    background-color: green;
-    border-style: none;
-    padding: 10px;
-    margin: auto auto 20px auto;
-    border-radius: 4px;
-    width: 120px;
-    cursor: pointer;
-    color: white;
-    float: left;
-    margin-left: 5px;
-  }
-  
-  input:focus {
-    outline: none;
-  }
-  
-  .submit-btn:hover {
-    opacity: 0.7;
-  }
-  
-  .links {
-    text-align: center;
-  }
-  
-  .links a {
-    font-size: 12px;
-    color: white;
-  }
-  
-  .links a:hover {
-    color: green;
-    transition: color 0.5s;
-  }
-  select {
-    padding: 10px;
-    background-color: white;
-    width: 260px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
 
-  body {
-    font-family: 'Hahmlet', sans-serif;
-  }
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 48px;
+  margin-bottom: 12px;
+  color: green;
+}
+
+.login-link {
+  color: gray;
+}
+
+.login-link:hover {
+  color: green;
+  transition: color 0.5s;
+}
+
+.login-form {
+  padding: 20px;
+  background-color: gainsboro;
+  width: 300px;
+  display: block;
+  margin: 36px auto auto auto;
+  border-radius: 5px;
+}
+
+.login-form input {
+  font-size: 14px;
+  border-style: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  width: 260px;
+  color: #9b9b9b;
+}
+
+.submit-btn {
+  font-size: 14px;
+  background-color: green;
+  border-style: none;
+  padding: 10px;
+  margin: auto auto 20px auto;
+  border-radius: 4px;
+  width: 120px;
+  cursor: pointer;
+  color: white;
+  float: left;
+  margin-left: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.submit-btn:hover {
+  opacity: 0.7;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  font-size: 12px;
+  color: white;
+}
+
+.links a:hover {
+  color: green;
+  transition: color 0.5s;
+}
+select {
+  padding: 10px;
+  background-color: white;
+  width: 260px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+body {
+  font-family: 'Hahmlet', sans-serif;
+}
