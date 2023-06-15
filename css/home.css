@@ -10,12 +10,14 @@
   font-size: 36px;
   font-weight: bold;
   color: green;
+  padding: 10px;
 }
 
 .home-login {
   font-weight: bold;
-  font-size: 13px;
+  font-size: 20px;
   text-align: right;
+  padding-right: 10px;
   color: black; 
   transition: color 0.5s;
 }
@@ -27,6 +29,22 @@
 .home-introduce-description {
   font-size: 16px;
   line-height: 1.5em;
+  padding: 10px;
+}
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
 }
 
 .home-review {

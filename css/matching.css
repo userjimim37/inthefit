@@ -1,7 +1,7 @@
 .matching-introduce-title {
   font-size: 36px;
   font-weight: bold;
-  color: #3cb371;
+  color: green;
   padding: 10px;
   text-align: center;
   width: 300px;
@@ -26,9 +26,9 @@
 
 .matching-join-box {
   text-align: right;
-  padding-right: 7px;
+  padding-right: 10px;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 20px;
   color: black;
   transition: color 0.5s;
 }
@@ -105,10 +105,9 @@
 
 .login-form {
   padding: 20px;
-  background-color: gainsboro;
   width: 300px;
   display: block;
-  margin: 36px auto auto auto;
+  margin: 5px auto auto auto;
   border-radius: 5px;
 }
 
@@ -121,6 +120,7 @@
   border-radius: 4px;
   width: 260px;
   color: #9b9b9b;
+  border: 1px solid black;
 }
 
 .submit-btn {
