@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../../css/reset.css" />
     <link rel="stylesheet" href="../../css/global.css" />
     <link rel="stylesheet" href="../../css/signup.css" />
+    <link rel="stylesheet" href="../../css/sign.css" />
     <link
       href="https://fonts.googleapis.com/earlyaccess/notosanskr.css"
       rel="stylesheet"
@@ -33,7 +34,12 @@
           <form>
             <div class="field">
               <b>이름</b>
-              <input type="text" name="name" placeholder="이름을 입력하시오." maxlength="10"/>
+              <input
+                type="text"
+                name="name"
+                placeholder="이름을 입력하시오."
+                maxlength="10"
+              />
             </div>
             <div class="field">
               <b>생년월일</b>
@@ -55,7 +61,8 @@
                 type="password"
                 name="password"
                 placeholder="비밀번호를 설정하시오."
-                maxlength="10"/>
+                maxlength="10"
+              />
             </div>
             <div class="field">
               <b>비밀번호 재확인</b>
@@ -64,7 +71,8 @@
                 type="password"
                 name="password-check"
                 placeholder="비밀번호를 한번 더 입력하시오."
-                maxlength="10"/>
+                maxlength="10"
+              />
             </div>
             <div>
               <b>운동종목</b>
@@ -83,12 +91,10 @@
                 </select>
               </div>
             </div>
-            <a href="login.html"
-              ><button type="button" class="submit-btn">확인</button></a
-            >
-            <a href="login.html"
-              ><button type="button" class="submit-btn">취소</button></a
-            >
+            <div class="submit-btn-box">
+              <button type="button" class="submit-btn">확인</button>
+              <button type="button" class="submit-btn">취소</button>
+            </div>
           </form>
 
           <div class="links">
