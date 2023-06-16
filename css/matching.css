@@ -12,10 +12,11 @@
   flex-direction: column;
   row-gap: 12px;
   padding: 20px;
-  background-color: gainsboro;
   width: 500px;
   margin: 36px auto auto auto;
   border-radius: 5px;
+  border: 3px solid green;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
 }
 
 .matching-item {

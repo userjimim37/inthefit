@@ -14,11 +14,11 @@
 }
 
 .home-login {
-  font-weight: bold;
-  font-size: 20px;
   text-align: right;
   padding-right: 10px;
-  color: black; 
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
   transition: color 0.5s;
 }
 

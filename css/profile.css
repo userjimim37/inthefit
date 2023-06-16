@@ -6,8 +6,8 @@
   width: 500px;
   margin: 36px auto auto auto;
   border-radius: 5px;
-  border: 5px solid gainsboro;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border: 3px solid green;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
 }
 
 .matching-item {
