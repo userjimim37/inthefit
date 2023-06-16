@@ -1,13 +1,30 @@
-.profile-imageBox {
+.matching-box {
   display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-top: 36px;
+  flex-direction: column;
+  row-gap: 12px;
+  padding: 20px;
+  width: 500px;
+  margin: 36px auto auto auto;
+  border-radius: 5px;
+  border: 5px solid gainsboro;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.matching-item {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
 }
 
 .profile-image {
-  width: 240px;
-  height: 240px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -17,12 +34,39 @@
   height: 100%;
 }
 
-.profile-username {
+.info-box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.name {
+  font-size: 25px;
+  color: green;
+  padding-bottom: 10px;
+}
+
+.info-box-lo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.info-box-lo button {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
-  margin-top: 12px;
-  font-size: 16px;
+  padding: 8px 0 8px 0;
+  border: 1px solid black;
+  border-radius: 50px;
+  transition: color 0.3s, background-color 0.5s;
+}
+
+.info-box-lo button:hover {
+  color: white;
+  background-color: green;
 }
 
 .profile-review-titleBox {
