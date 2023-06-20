@@ -1,6 +1,6 @@
 let currentSlide = 0;
-const slides = document.querySelectorAll('.slideshow img');
-const slideDuration = 15000; // 15초
+const slides = document.querySelectorAll('.slider img');
+const slideDuration = 3000; // 15초
 
 function showSlide(n) {
   slides.forEach((slide) => {
